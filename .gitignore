@@ -25,4 +25,4 @@ yarn-error.log*
 /static
 babel.config.js
 docusaurus.config.js
-sidebar.js
+sidebars.js
