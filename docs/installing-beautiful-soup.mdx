@@ -4,9 +4,8 @@ title: Installing BeautifulSoup
 
 If you’re using a recent version of Debian or Ubuntu Linux, you can install Beautiful Soup with the system package manager:
 
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
 
 <Tabs>
 <TabItem value="pyhton2" label="Python 2">
@@ -106,8 +105,6 @@ $ pip install lxml
 </TabItem>
 </Tabs>
 
-
-
 Another alternative is the pure-Python [html5lib parser](https://github.com/html5lib/), which parses HTML the way a web browser does. Depending on your setup, you might install html5lib with one of these commands:
 
 <Tabs>
@@ -135,9 +132,6 @@ $ pip install html5lib
 </Tabs>
 
 This table summarizes the advantages and disadvantages of each parser library:
-
-
-
 
 If you can, I recommend you install and use lxml for speed. If you’re using a version of Python 2 earlier than 2.7.3, or a version of Python 3 earlier than 3.2.2, it’s essential that you install lxml or html5lib–Python’s built-in HTML parser is just not very good in older versions.
 
