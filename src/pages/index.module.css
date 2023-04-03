@@ -2,6 +2,7 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
 
 .heroBanner {
   padding: 4rem 0;
@@ -20,4 +21,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+code {
+  background-color:hsl(147, 49%, 90%);
+  padding: 1px 5px;
+  border-radius: 5px;
+  color: var(--ifm-color-primary);
+  border: 0px;
+  font-weight: 600;
+}
+
+pre code > * {
+  font-family: "Fira Code", monospace;
 }
