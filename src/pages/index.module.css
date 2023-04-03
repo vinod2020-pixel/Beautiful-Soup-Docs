@@ -24,12 +24,12 @@
 }
 
 code {
-  background-color:hsl(147, 49%, 90%);
+  background-color:hsl(147, 49%, 95%);
   padding: 1px 5px;
   border-radius: 5px;
   color: var(--ifm-color-primary);
   border: 0px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 pre code > * {
