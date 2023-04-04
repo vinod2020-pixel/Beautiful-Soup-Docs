@@ -1,5 +1,6 @@
 ---
 title: Line Numbers
+sidebar_position: 12
 ---
 
 The `html.parser` and html5lib parsers can keep track of where in the original document each Tag was found. You can access this information as `Tag.sourceline` (line number) and `Tag.sourcepos` (position of the start tag within a line):

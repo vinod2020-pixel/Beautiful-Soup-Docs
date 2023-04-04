@@ -1,5 +1,6 @@
 ---
 title: Modifying the Tree
+sidebar_position: 8
 ---
 
 Beautiful Soup’s main strength is in searching the parse tree, but you can also modify the tree and write your changes as a new HTML or XML document.

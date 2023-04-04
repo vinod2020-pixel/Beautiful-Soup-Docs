@@ -1,5 +1,6 @@
 ---
 title: Advanced Parser Customization
+sidebar_position: 15
 ---
 
 Beautiful Soup offers a number of ways to customize how the parser treats incoming HTML and XML. This section covers the most commonly used customization techniques.

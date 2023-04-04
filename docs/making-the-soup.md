@@ -1,5 +1,6 @@
 --- 
 title: Making the Soup
+sidebar_position: 4
 ---
 
 To parse a document, pass it into the `BeautifulSoup` constructor. You can pass in a string or an open filehandle:

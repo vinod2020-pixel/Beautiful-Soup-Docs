@@ -1,5 +1,6 @@
 ---
 title: Specifying the parser to use
+sidebar_position: 10
 ---
 
 If you just need to parse some HTML, you can dump the markup into the BeautifulSoup constructor, and it’ll probably be fine. Beautiful Soup will pick a parser for you and parse the data. But there are a few additional arguments you can pass in to the constructor to change which parser is used.

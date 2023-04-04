@@ -1,5 +1,6 @@
 ---
 title: Quick Start
+sidebar_position: 2
 ---
 
 Here’s an HTML document I’ll be using as an example throughout this document. It’s part of a story from *Alice in Wonderland*:

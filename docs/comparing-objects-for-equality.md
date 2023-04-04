@@ -1,5 +1,6 @@
 ---
 title: Comparing objects for equality
+sidebar_position: 13
 ---
 
 Beautiful Soup says that two NavigableString or Tag objects are equal when they represent the same HTML or XML markup. In this example, the two **b** tags are treated as equal, even though they live in different parts of the object tree, because they both look like “**b**pizza **/b**”:

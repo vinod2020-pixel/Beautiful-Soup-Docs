@@ -17,7 +17,7 @@ const config = {
     },
   ],
   title: 'BeautifulSoup Documentation',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Easily parse and navigate HTML',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -67,9 +67,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'BeautifulSoup',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'BeautifulSoup',
           src: 'img/logo.svg',
         },
         items: [
@@ -79,7 +79,6 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -119,10 +118,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',

@@ -1,5 +1,6 @@
 ---
 title: Navigating the Tree
+sidebar_position: 6
 ---
 
 Here’s the “Three sisters” HTML document again:

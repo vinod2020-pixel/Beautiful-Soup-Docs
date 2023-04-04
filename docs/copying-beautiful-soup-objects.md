@@ -1,5 +1,6 @@
 ---
 title: Copying Beautiful Soup Objects
+sidebar_position: 14
 ---
 
 You can use `copy.copy()` to create a copy of any `Tag` or `NavigableString`:
