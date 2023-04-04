@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import Head from '@docusaurus/Head';
 
 import styles from './index.module.css';
 
@@ -18,7 +19,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            BeautifulSoup Docs - 5min ⏱️
+            BeautifulSoup Docs
           </Link>
         </div>
       </div>
@@ -30,8 +31,12 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+        title={`Hello from ${siteConfig.title}`}
+        description="Beautiful Soup is a Python package for web scraping that makes it easy to extract data from HTML and XML documents. This documentation page provides comprehensive guides, tutorials, and references to help you navigate and utilize the powerful features of Beautiful Soup.">
+      <Head>
+        <meta name="theme-color" content="#2e8555" />
+      </Head>
+      
       <HomepageHeader />
       <main>
         <HomepageFeatures />
